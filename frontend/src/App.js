@@ -149,7 +149,7 @@ class App extends Component {
     }
   };
   tableShow = () => {
-    if (this.state.dados.length > 0) {
+    if (this.state.dados.length >= 0) {
       return (
         <div>
           <div className="space-around">
